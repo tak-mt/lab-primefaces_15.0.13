@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+    <title id="title">Azure Portal Theme Preview</title>
+    <desc id="desc">Preview tile for the Azure-inspired PrimeFaces theme.</desc>
+    <rect width="320" height="200" rx="16" fill="#f5f7fb"/>
+    <rect x="16" y="16" width="288" height="32" rx="8" fill="#ffffff" stroke="#e1dfdd"/>
+    <rect x="28" y="24" width="72" height="16" rx="4" fill="#0078d4"/>
+    <rect x="16" y="60" width="76" height="124" rx="10" fill="#ffffff" stroke="#e1dfdd"/>
+    <rect x="28" y="76" width="52" height="10" rx="5" fill="#605e5c" opacity=".65"/>
+    <rect x="28" y="96" width="44" height="10" rx="5" fill="#deecf9"/>
+    <rect x="28" y="116" width="36" height="10" rx="5" fill="#eff6fc"/>
+    <rect x="28" y="136" width="40" height="10" rx="5" fill="#eff6fc"/>
+    <rect x="104" y="60" width="200" height="58" rx="10" fill="#ffffff" stroke="#e1dfdd"/>
+    <rect x="120" y="76" width="86" height="12" rx="6" fill="#323130"/>
+    <rect x="120" y="96" width="136" height="10" rx="5" fill="#605e5c" opacity=".45"/>
+    <rect x="104" y="126" width="96" height="58" rx="10" fill="#ffffff" stroke="#e1dfdd"/>
+    <rect x="120" y="142" width="48" height="10" rx="5" fill="#0078d4" opacity=".2"/>
+    <rect x="120" y="160" width="62" height="10" rx="5" fill="#0078d4"/>
+    <rect x="208" y="126" width="96" height="58" rx="10" fill="#ffffff" stroke="#e1dfdd"/>
+    <rect x="224" y="142" width="64" height="10" rx="5" fill="#605e5c" opacity=".25"/>
+    <rect x="224" y="160" width="44" height="10" rx="5" fill="#eff6fc"/>
+</svg>
