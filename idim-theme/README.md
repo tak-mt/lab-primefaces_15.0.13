@@ -16,11 +16,11 @@ The module now owns the Azure Portal-derived Sass source and compiles its packag
 
 PrimeFaces should resolve the theme from:
 
-- `META-INF/resources/idim-theme/theme.css`
+- `META-INF/resources/primefaces-idim-theme/theme.css`
 
 Editable source lives under:
 
-- `src/main/sass/idim-theme`
+- `src/main/sass/primefaces-idim-theme`
 
 ## Build
 
@@ -58,4 +58,4 @@ Then set the PrimeFaces theme:
 ## Notes
 
 - The Azure Portal theme source has been relocated into this module from the checked-out PrimeFaces sources.
-- Update the Sass files in `src/main/sass/idim-theme` when changing shared team branding.
+- Update the Sass files in `src/main/sass/primefaces-idim-theme` when changing shared team branding.

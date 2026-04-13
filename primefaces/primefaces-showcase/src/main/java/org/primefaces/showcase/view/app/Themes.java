@@ -40,6 +40,11 @@ public class Themes {
 
     @PostConstruct
     public void init() {
+        Category company = new Category("Company");
+        company.getThemes().add(
+                new Theme("idim-theme", "iDIM Theme", "images/themes/azure-portal.svg", false));
+        categories.add(company);
+
         Category primeOne = new Category("PrimeOne");
         primeOne.getThemes().add(
                 new Theme("saga-blue", "Saga Blue", "images/themes/saga.png", false));

@@ -41,6 +41,7 @@
                             <goal>compile-sass</goal>
                         </goals>
                         <configuration>
+                            <version>1.99.0</version>
                             <inputFolder>${project.basedir}/src/main/sass</inputFolder>
                             <outputFolder>${project.build.directory}/generated-resources/theme/META-INF/resources</outputFolder>
                             <update>true</update>
