@@ -2,6 +2,8 @@
 
 Reusable PrimeFaces custom theme module for the iDIM team.
 
+The module now owns the Azure Portal-derived Sass source and compiles its packaged theme during the Maven build.
+
 ## Coordinates
 
 - `groupId`: `com.idim.primefaces`
@@ -15,6 +17,10 @@ Reusable PrimeFaces custom theme module for the iDIM team.
 PrimeFaces should resolve the theme from:
 
 - `META-INF/resources/idim-theme/theme.css`
+
+Editable source lives under:
+
+- `src/main/sass/idim-theme`
 
 ## Build
 
@@ -51,5 +57,5 @@ Then set the PrimeFaces theme:
 
 ## Notes
 
-- This module is currently seeded from the Azure Portal style theme in the checked-out PrimeFaces sources.
-- Keep shared team branding changes inside `src/main/resources/META-INF/resources/idim-theme/theme.css`.
+- The Azure Portal theme source has been relocated into this module from the checked-out PrimeFaces sources.
+- Update the Sass files in `src/main/sass/idim-theme` when changing shared team branding.

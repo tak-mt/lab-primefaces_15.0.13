@@ -40,7 +40,7 @@ public class App implements Serializable {
 
     @Inject private Themes themes;
 
-    private String theme = "azure-portal";
+    private String theme = "saga-blue";
     private boolean darkMode = false;
     private String inputStyle = "outlined";
     private Country locale = new Country(0, Locale.US);
