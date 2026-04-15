@@ -8,7 +8,7 @@ The module now owns the Azure Portal-derived Sass source and compiles its packag
 
 - `groupId`: `com.idim.primefaces`
 - `artifactId`: `idim-theme`
-- `version`: `101a`
+- `version`: `1.01a-SNAPSHOT`
 
 ## Packaged Theme Name
 
@@ -31,7 +31,7 @@ mvn clean package
 The generated artifact will be:
 
 ```text
-target/idim-theme-101a.jar
+target/idim-theme-1.01a-SNAPSHOT.jar
 ```
 
 ## Use In Another Application
@@ -42,7 +42,7 @@ Add the dependency:
 <dependency>
     <groupId>com.idim.primefaces</groupId>
     <artifactId>idim-theme</artifactId>
-    <version>101a</version>
+    <version>1.01a-SNAPSHOT</version>
 </dependency>
 ```
 
