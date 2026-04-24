@@ -1,25 +1,34 @@
 body {
-    background:
-        linear-gradient(180deg, rgba(0, 120, 212, 0.03), rgba(255, 255, 255, 0) 16rem),
-        var(--surface-ground);
+    background: var(--surface-ground);
 }
 
 .p-component {
     letter-spacing: 0;
 }
 
+.ui-button,
 .p-button {
     font-weight: 600;
     box-shadow: none;
 }
 
+.ui-button:not(.ui-button-text):not(.ui-button-link):not(.ui-button-outlined),
 .p-button:not(.p-button-text):not(.p-button-link):not(.p-button-outlined) {
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.08);
 }
 
+.ui-button.ui-button-secondary,
+.ui-button.ui-button-outlined,
 .p-button.p-button-secondary,
 .p-button.p-button-outlined {
     box-shadow: none;
+}
+
+.app-page-actions .ui-button,
+.app-page-actions .p-button {
+    min-height: 2rem;
+    padding-top: 0.42rem;
+    padding-bottom: 0.42rem;
 }
 
 .p-inputtext,
