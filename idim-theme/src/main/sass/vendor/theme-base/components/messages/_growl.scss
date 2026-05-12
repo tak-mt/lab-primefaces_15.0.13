@@ -5,18 +5,19 @@ body {
     .ui-growl-item-container {
       margin: $growlMargin;
       border-radius: $borderRadius;
-      box-shadow: $overlayContainerShadow;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
 
       .ui-icon-closethick {
         @include icon-override("\e90b");
         position: absolute;
-        top: .5rem;
-        right: .5rem;
+        top: .375rem;
+        right: .375rem;
       }
 
       .ui-growl-item {
         padding: $growlPadding;
-        min-height: 70px;
+        min-height: 58px;
       }
 
       &.ui-growl-info {
@@ -24,6 +25,7 @@ body {
         border: $infoMessageBorder;
         color: $infoMessageTextColor;
         border-width: $messagesBorderWidth;
+        border-left: 4px solid $infoMessageIconColor;
 
         .ui-growl-image {
           @include icon-override("\e924");
@@ -41,6 +43,7 @@ body {
         border: $warnMessageBorder;
         color: $warnMessageTextColor;
         border-width: $messagesBorderWidth;
+        border-left: 4px solid $warnMessageIconColor;
 
         .ui-growl-image {
           @include icon-override("\e922");
@@ -58,6 +61,7 @@ body {
         border: $errorMessageBorder;
         color: $errorMessageTextColor;
         border-width: $messagesBorderWidth;
+        border-left: 4px solid $errorMessageIconColor;
 
         .ui-growl-image {
           @include icon-override("\e90c");

@@ -269,6 +269,22 @@ $messagePadding: .875rem 1rem;
 $messageBorderWidth: 1px;
 $messagesIconFontSize: 1rem;
 $messagesBorderWidth: 1px;
+$growlMargin: 0 0 .75rem 0;
+$growlPadding: .875rem 3rem .875rem 3.25rem;
+$growlIconFontSize: 1.25rem;
+
+$infoMessageBg: #ffffff;
+$infoMessageBorder: solid #d2e7f8;
+$infoMessageTextColor: $shade700;
+$infoMessageIconColor: $primaryColor;
+$warnMessageBg: #ffffff;
+$warnMessageBorder: solid #fde7b2;
+$warnMessageTextColor: $shade700;
+$warnMessageIconColor: #f2a100;
+$errorMessageBg: #ffffff;
+$errorMessageBorder: solid #f3c2c4;
+$errorMessageTextColor: $shade700;
+$errorMessageIconColor: $errorColor;
 
 $badgeFontSize: .6875rem;
 $badgeFontWeight: 600;
