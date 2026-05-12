@@ -25,7 +25,7 @@ body {
         border: $infoMessageBorder;
         color: $infoMessageTextColor;
         border-width: $messagesBorderWidth;
-        border-left: 4px solid $infoMessageIconColor;
+        border-color: $growlBorderColor;
 
         .ui-growl-image {
           @include icon-override("\e924");
@@ -43,7 +43,7 @@ body {
         border: $warnMessageBorder;
         color: $warnMessageTextColor;
         border-width: $messagesBorderWidth;
-        border-left: 4px solid $warnMessageIconColor;
+        border-color: $growlBorderColor;
 
         .ui-growl-image {
           @include icon-override("\e922");
@@ -61,7 +61,7 @@ body {
         border: $errorMessageBorder;
         color: $errorMessageTextColor;
         border-width: $messagesBorderWidth;
-        border-left: 4px solid $errorMessageIconColor;
+        border-color: $growlBorderColor;
 
         .ui-growl-image {
           @include icon-override("\e90c");
